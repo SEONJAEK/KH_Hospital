@@ -44,7 +44,7 @@ public class UserDAO {
 				e.printStackTrace();
 			}
 		}
-		return -1; //데이터베이스 오류
+		return -1; //데이터베이스 오류//오류
 	}
 	
 	public int register(String userID, String userPassword, String userName, String userGender, String userAge, String phone, String address, String userEmail) {
